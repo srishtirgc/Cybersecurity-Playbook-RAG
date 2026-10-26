@@ -1,0 +1,26 @@
+﻿
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local vector database
+chroma_db/
+
+# Downloaded models and caches
+.cache/
+models/
+
+# Data files: PDFs and other local documents
+data/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
